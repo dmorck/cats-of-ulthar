@@ -1,0 +1,9 @@
+/**
+ * Custom CSS for Cats of Ulthar
+ */
+
+.description-text {
+  clear: both;
+  font-size: .5rem;
+  color: #CCC;
+}
