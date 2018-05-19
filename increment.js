@@ -31,7 +31,7 @@ $(document).ready(function(){
 
         foreboding = foreboding + 10;
 
-        $( "fudTotal").val(function (i, val) {
+        $( "#fudTotal").val(function (i, val) {
           fudTotal = fudTotal - 100;
           return fudTotal;
         });
