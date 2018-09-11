@@ -4,6 +4,7 @@
 
 .description-text {
   clear: both;
-  font-size: .5rem;
-  color: #CCC;
+  font-size: .8rem;
+  color: #333;
+  margin: 0px 5px 10px 5px;
 }
