@@ -1,4 +1,5 @@
 var tinyHorrorTotal = 0;
+var buyTinyHorrorCost = 10;
 var fudTotal = 0;
 var foreboding = 100;
 
@@ -6,10 +7,9 @@ $(document).ready(function(){
 
   $('#buyTinyHorror').on('click', function () {
 
-      $( "#foreboding").val(function (i, val) {
+      $( "#foreboding" ).val(function (i, val) {
 
         if (foreboding > 0) {
-          var buyTinyHorrorCost = 10;
           foreboding = foreboding - buyTinyHorrorCost;
 
           $( "#tinyHorrorTotal" ).val(function ( i, val ) {
@@ -18,6 +18,10 @@ $(document).ready(function(){
 
           return foreboding;
         }
+    
+        else {
+          return foreboding;
+        } 
    
     });
 
@@ -25,7 +29,7 @@ $(document).ready(function(){
 
   $('#sellFUD').on('click', function () {
 
-    $( "#foreboding").val(function (i, val) {
+    $( "#foreboding" ).val(function (i, val) {
 
       if (fudTotal >= 100) {
 
@@ -38,6 +42,10 @@ $(document).ready(function(){
 
         return foreboding;
 
+      }
+
+      else {
+        return foreboding;
       }
 
     });
