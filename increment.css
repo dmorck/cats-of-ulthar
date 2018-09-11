@@ -1,5 +1,6 @@
 /**
  * Custom CSS for Cats of Ulthar
+ * @todo - Refactor for SASS?
  */
 
 .description-text {
@@ -7,4 +8,32 @@
   font-size: .8rem;
   color: #333;
   margin: 0px 5px 10px 5px;
+}
+
+/*
+
+.form-wrapper {
+  clear: both;
+  margin: 5px 10px;
+}
+
+.form-wrapper label {
+  margin: 7px 0px 0px 0px;
+  width: 7rem;
+}
+
+.form-wrapper input {
+  margin: 0px 7px 0px 7px;
+}
+
+.form-wrapper button {
+}
+
+*/
+
+@media screen and (max-width: 480px) {
+  .form-wrapper button {
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+  }
 }
