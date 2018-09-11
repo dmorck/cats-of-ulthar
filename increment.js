@@ -2,7 +2,8 @@ var tinyHorrorTotal = 0;
 var buyTinyHorrorCost = 10;
 var fudTotal = 0;
 var foreboding = 100;
-var placeHolderEnabled = 0;
+// toggle for 2nd unit - yiglings
+var yiglingEnabled = 0;
 
 $(document).ready(function(){
 
@@ -64,9 +65,9 @@ $(document).ready(function(){
       return fudTotal;
     });
 
-    if (tinyHorrorTotal >= 10 && placeHolderEnabled == 0) {
-      $( "#newUnits" ).after('<div class="row mb-3"><div class="col-sm-3"><label for="placeholderTotal">Place Holder</label></div><div class="col-sm-5"><input type="text" value="0" id="placeHolderTotal" readonly></div><div class="col-sm-4"><button type="button" id="buyPlaceholder" class="btn btn-primary">Buy Placeholder</button></div></div>');
-      placeHolderEnabled = 1;
+    if (tinyHorrorTotal >= 10 && yiglingEnabled == 0) {
+      $( "#newUnits" ).after('<div class="row mb-3"><div class="col-sm-3"><label for="yiglingTotal">Yigling</label></div><div class="col-sm-5"><input type="text" value="0" id="yiglingTotal" readonly></div><div class="col-sm-4"><button type="button" id="buyYigling" class="btn btn-primary">Buy Yigling</button></div></div>');
+      yiglingEnabled = 1;
     }
 
   }

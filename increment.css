@@ -10,26 +10,17 @@
   margin: 0px 5px 10px 5px;
 }
 
-/*
-
-.form-wrapper {
-  clear: both;
-  margin: 5px 10px;
+.bg-blood-red {
+  background: #541313;
 }
 
-.form-wrapper label {
-  margin: 7px 0px 0px 0px;
-  width: 7rem;
+.bg-units {
+  background: #ddd;
 }
 
-.form-wrapper input {
-  margin: 0px 7px 0px 7px;
+.bg-resources {
+  background: #ccc;
 }
-
-.form-wrapper button {
-}
-
-*/
 
 @media screen and (max-width: 480px) {
   .form-wrapper button {
