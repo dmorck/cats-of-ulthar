@@ -25,8 +25,6 @@ $(document).ready(function(){
         else {
           return foreboding;
         } 
-   
-    });
 
     $('#buyYigling').on('click', function () {
 
@@ -47,7 +45,7 @@ $(document).ready(function(){
         } 
    
     });
-
+   
   });
 
   $('#sellFUD').on('click', function () {
