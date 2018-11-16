@@ -72,6 +72,8 @@ $(document).ready(function(){
   
   });
 
+});
+
   setInterval(additionItems,1000);
 
   function additionItems () {
