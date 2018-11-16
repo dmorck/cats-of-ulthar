@@ -27,24 +27,25 @@ $(document).ready(function(){
         } 
    
     });
+  });
 
-    $('#buyYigling').on('click', function () {
+  $('#buyYigling').on('click', function () {
 
-     $( "#foreboding" ).val(function (i, val) {
+   $( "#foreboding" ).val(function (i, val) {
 
-       if (foreboding > 0) {
-         foreboding = foreboding - buyYiglingCost;
-          $( "#yiglingTotal" ).val(function ( i, val ) {
-           return ++yiglingTotal;
-         });
-          return foreboding;
-       }
-   
-       else {
-         return foreboding;
-       } 
+     if (foreboding > 0) {
+       foreboding = foreboding - buyYiglingCost;
+        $( "#yiglingTotal" ).val(function ( i, val ) {
+         return ++yiglingTotal;
+       });
+        return foreboding;
+     }
+     else {
+       return foreboding;
+     } 
   
-     });
+    });
+  });
 
   $('#sellFUD').on('click', function () {
 
