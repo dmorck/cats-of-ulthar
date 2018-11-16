@@ -33,7 +33,7 @@ $(document).ready(function(){
       $( "#foreboding" ).val(function (i, val) {
 
         if (foreboding > 0) {
-          foreboding = foreboding - buyTinyHorrorCost;
+          foreboding = foreboding - buyYiglingCost;
 
           $( "#yiglingTotal" ).val(function ( i, val ) {
             return ++yiglingTotal;
