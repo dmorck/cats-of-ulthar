@@ -1,5 +1,6 @@
 var tinyHorrorTotal = 0;
 var buyTinyHorrorCost = 10;
+var buyYiglingCost = 20;
 var fudTotal = 0;
 var foreboding = 100;
 // toggle for 2nd unit - yiglings
@@ -16,6 +17,26 @@ $(document).ready(function(){
 
           $( "#tinyHorrorTotal" ).val(function ( i, val ) {
             return ++tinyHorrorTotal;
+          });
+
+          return foreboding;
+        }
+    
+        else {
+          return foreboding;
+        } 
+   
+    });
+
+    $('#buyYigling').on('click', function () {
+
+      $( "#foreboding" ).val(function (i, val) {
+
+        if (foreboding > 0) {
+          foreboding = foreboding - buyTinyHorrorCost;
+
+          $( "#yiglingTotal" ).val(function ( i, val ) {
+            return ++yiglingTotal;
           });
 
           return foreboding;
