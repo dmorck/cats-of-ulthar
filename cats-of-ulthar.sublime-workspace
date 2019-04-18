@@ -1,0 +1,282 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"$weather_forec",
+				"$weather_forecast_array"
+			],
+			[
+				"$wea",
+				"$weather_array"
+			],
+			[
+				"$weat",
+				"$weather_today_url"
+			],
+			[
+				"fah",
+				"fahrenheit_to_celcius"
+			],
+			[
+				"$weath",
+				"$weather_detailed_forecast"
+			],
+			[
+				"$hour",
+				"$hours_url"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"git",
+				"Set Syntax: Git Config"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/dmorck/Desktop/cats-of-ulthar"
+	],
+	"file_history":
+	[
+		"/C/Users/dmorck/Documents/wayfinding/index.php",
+		"/C/Users/dmorck/Documents/wayfinding/README.md",
+		"/C/Users/dmorck/Documents/wayfinding/weather.html",
+		"/C/Users/dmorck/Documents/wayfinding/.gitignore",
+		"/C/Users/dmorck/Documents/wayfinding/sftp-config.json",
+		"/C/Users/dmorck/Desktop/temp/test.html",
+		"/C/Users/dmorck/Desktop/temp/dropdown.js",
+		"/C/Users/dmorck/Desktop/temp/index.html",
+		"/C/Users/dmorck/Desktop/Web One Stuff/2018-11-30-deploy/2018-11-30-changeset/www/sites/default/themes/csun/sass/components/_menu.scss",
+		"/C/Users/dmorck/Desktop/Web One Stuff/2018-11-30-deploy/2018-11-30-changeset/www/sites/default/themes/csun/sass/components/_google-search.scss",
+		"/C/Users/dmorck/Desktop/temp/_dropdowns.scss",
+		"/C/Users/dmorck/Desktop/Web One Stuff/2018-11-30-deploy/2018-11-30-changeset/www/sites/default/themes/csun/sass/_components.scss",
+		"/C/Users/dmorck/Documents/Incremental Game/index.html",
+		"/C/Users/dmorck/Documents/Incremental Game/increment.css",
+		"/C/Users/dmorck/Documents/Incremental Game/increment.js",
+		"/C/Users/dmorck/Desktop/temp/lightbox2.formatter.inc",
+		"/C/Users/dmorck/Documents/Incremental Game/css/bootstrap.css",
+		"/C/Users/dmorck/Desktop/temp/_base.scss",
+		"/C/Users/dmorck/Desktop/temp/style.scss",
+		"/C/Users/dmorck/Desktop/temp/_modules.scss",
+		"/C/Users/dmorck/Documents/Incremental Game/vendor/twbs/bootstrap/config.rb",
+		"/C/users/dmorck/appdata/local/temp/sublime-sftp-browse-1524673354/sftp-config.json/home3/frogtown/public_html/drupal8-test/themes/README.txt",
+		"/C/Users/dmorck/Documents/frogtownproductions/test.html",
+		"/C/Users/dmorck/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/sftp-config.json",
+		"/C/Users/dmorck/Documents/frogtownproductions/sftp-config.json",
+		"/C/Users/dmorck/Documents/frogtownproductions/frogtown.sublime-project",
+		"/C/Users/dmorck/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/dmorck/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"weather_today",
+			"class=\"row",
+			"&nbsp;",
+			"btn-ox-blood",
+			"homepage--button-font",
+			"fas-10 mt-2",
+			"fas fas-10",
+			"font-test",
+			"btn-full-height",
+			"fas ",
+			" style=\"font-size: 10rem;\"",
+			" style=\"font-size: 4rem;\"",
+			"mixins",
+			" nav navbar-nav navbar-center",
+			" role=\"menuitem\"",
+			"search-container",
+			"data-toggle=\"collapse\"",
+			"<!-- dropdown ",
+			"data-toggle=\"collapse\"",
+			"data-parent=\"#accordion\" ",
+			"#main-menu--wrapper",
+			"main-menu--wrapper",
+			"col-xs-2",
+			"col-sm-4",
+			"col-xs-4",
+			"col-sm-4",
+			"img-responsive",
+			"col-md-2 col-sm-4 w-100",
+			"col-md-2 col-sm-4 w-auto",
+			"col-md-2 col-sm-4",
+			"col-md-2 col-sm-4 ",
+			"col-md-2 col-sm-4 col-xs-6",
+			"flex",
+			"firstProduct",
+			"plierProduct",
+			"firstIncrement",
+			"arch.</p>",
+			"</p></p>",
+			"</span",
+			"\"go",
+			"id=\"go"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"col-xs-6",
+			"col-sm-4 col-xs-2",
+			"col-sm-4",
+			"col-xs-4",
+			"img-responsive w-100",
+			"col-md-2 col-sm-4",
+			"col-md-2 col-sm-4 w-100",
+			"col-md-2 col-sm-4 w-auto",
+			"col-md-2 col-sm-4"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 154.0
+	},
+	"pinned_build_system": "",
+	"project": "cats-of-ulthar.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
