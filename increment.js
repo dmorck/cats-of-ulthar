@@ -7,9 +7,7 @@ var foreboding = 100;
 // toggle for 2nd unit - yiglings
 var yiglingEnabled = 0;
 
-$(document).ready(function(){
-
-  $('#buyTinyHorror').on('click', function () {
+ $('#buyTinyHorror').on('click', function () {
 
     $( "#foreboding" ).val(function (i, val) {
 
@@ -73,6 +71,8 @@ $(document).ready(function(){
      }
    });
   });
+
+$(document).ready(function(){
 
   setInterval(additionItems,1000);
 
