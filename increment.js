@@ -11,39 +11,42 @@ $(document).ready(function(){
 
   $('#buyTinyHorror').on('click', function () {
 
-      $( "#foreboding" ).val(function (i, val) {
+    $( "#foreboding" ).val(function (i, val) {
 
-        if (foreboding > 0) {
-          foreboding = foreboding - buyTinyHorrorCost;
+      if (foreboding > 0) {
+        foreboding = foreboding - buyTinyHorrorCost;
 
-          $( "#tinyHorrorTotal" ).val(function ( i, val ) {
-            return ++tinyHorrorTotal;
-          });
+        $( "#tinyHorrorTotal" ).val(function ( i, val ) {
+          return ++tinyHorrorTotal;
+        });
 
-          return foreboding;
-        }
+        return foreboding;
+      }
 
-        else {
-          return foreboding;
-        }
+      else {
+        return foreboding;
+      }
 
     });
+
   });
 
   $('#buyYigling').on('click', function () {
 
-   $( "#foreboding" ).val(function (i, val) {
+    console.log("buyYigling Pressed");
 
-     if (foreboding > 0) {
-       foreboding = foreboding - buyYiglingCost;
+    $( "#foreboding" ).val(function (i, val) {
+      console.log("foreboding yigling fired");
+      if (foreboding > 0) {
+        foreboding = foreboding - buyYiglingCost;
         $( "#yiglingTotal" ).val(function ( i, val ) {
          return ++yiglingTotal;
        });
         return foreboding;
-     }
-     else {
-       return foreboding;
-     }
+      }
+      else {
+        return foreboding;
+      }
 
     });
   });
@@ -52,25 +55,24 @@ $(document).ready(function(){
 
     $( "#foreboding" ).val(function (i, val) {
 
-      if (fudTotal >= 100) {
+     if (fudTotal >= 100) {
 
-        foreboding = foreboding + 10;
+       foreboding = foreboding + 10;
 
-        $( "#fudTotal").val(function (i, val) {
-          fudTotal = fudTotal - 100;
-          return fudTotal;
-        });
+       $( "#fudTotal").val(function (i, val) {
+         fudTotal = fudTotal - 100;
+         return fudTotal;
+       });
 
-        return foreboding;
+       return foreboding;
 
-      }
+     }
 
-      else {
-        return foreboding;
-      }
-
-    });
+     else {
+       return foreboding;
+     }
    });
+  });
 
   setInterval(additionItems,1000);
 
