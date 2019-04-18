@@ -1,5 +1,6 @@
 var tinyHorrorTotal = 0;
 var buyTinyHorrorCost = 10;
+var yiglingTotal = 0;
 var buyYiglingCost = 20;
 var fudTotal = 0;
 var foreboding = 100;
@@ -21,11 +22,11 @@ $(document).ready(function(){
 
           return foreboding;
         }
-    
+
         else {
           return foreboding;
-        } 
-   
+        }
+
     });
   });
 
@@ -42,8 +43,8 @@ $(document).ready(function(){
      }
      else {
        return foreboding;
-     } 
-  
+     }
+
     });
   });
 
@@ -70,7 +71,7 @@ $(document).ready(function(){
 
     });
    });
-  
+
   setInterval(additionItems,1000);
 
   function additionItems () {
