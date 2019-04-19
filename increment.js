@@ -36,7 +36,7 @@ $(document).on('click', '#buyYigling', function () {
 
   $( "#foreboding" ).val(function (i, val) {
 
-    if (foreboding > 0) {
+    if (foreboding > 20) {
       foreboding = foreboding - buyYiglingCost;
       $( "#yiglingTotal" ).val(function ( i, val ) {
         return ++yiglingTotal;
