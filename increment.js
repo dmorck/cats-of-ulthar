@@ -80,7 +80,11 @@ $(document).ready(function(){
 
   function additionItems () {
 
+    // starting with yiglings, their earnings in multiples
+    yiglingEarning = yiglingTotal * 10;
+
     fudTotal = fudTotal + tinyHorrorTotal;
+    fudTotal = fudTotal + yiglingEarning;
 
   $( "#fudTotal" ).val(function (i, val) {
     return fudTotal;
