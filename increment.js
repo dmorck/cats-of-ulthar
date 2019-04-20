@@ -36,7 +36,7 @@ $(document).on('click', '#buyYigling', function () {
 
   $( "#foreboding" ).val(function (i, val) {
 
-    if (foreboding > 20) {
+    if (foreboding >= 20) {
       foreboding = foreboding - buyYiglingCost;
       $( "#yiglingTotal" ).val(function ( i, val ) {
         return ++yiglingTotal;
@@ -83,8 +83,10 @@ $(document).ready(function(){
     // starting with yiglings, their earnings in multiples
     yiglingEarning = yiglingTotal * 10;
 
-    fudTotal = fudTotal + tinyHorrorTotal;
-    fudTotal = fudTotal + yiglingEarning;
+    // When we get more units, get sum of new totals from an array of values
+
+    fudTotal = fudTotal + tinyHorrorTotal + yiglingEarning;
+//    fudTotal = fudTotal + yiglingEarning;
 
   $( "#fudTotal" ).val(function (i, val) {
     return fudTotal;
@@ -96,6 +98,18 @@ $(document).ready(function(){
   }
 
   } // function additionItems end
+  
+});
 
+// debugging / cheat console
+// add 1000 foreboding on enter keypress (will be obfuscated after testing)
+
+$(document).keypress(function (e) {
+  $( "#foreboding" ).val(function (i, val) {
+      if (e.which == 13) {
+        foreboding = foreboding + 1000;
+        return foreboding;
+      }
+  }); 
 });
 
