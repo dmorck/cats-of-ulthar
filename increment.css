@@ -28,3 +28,11 @@
     width: 100%;
   }
 }
+
+/* why does this not have spacing? @todo fix something */
+
+.chaosStoneInput label {
+
+  margin-right: 5px;
+
+}
