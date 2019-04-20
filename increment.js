@@ -99,7 +99,7 @@ $(document).ready(function(){
     if (tinyHorrorTotal >= 10 && yiglingEnabled == 0) {
       $( "#newUnits" ).after('<div class="row mb-3"><div class="col-sm-3"><label for="yiglingTotal">Yigling</label></div><div class="col-sm-5"><input type="text" value="0" id="yiglingTotal" readonly></div><div class="col-sm-4"><button type="button" id="buyYigling" class="btn btn-primary btn-sm">Buy Yigling</button></div></div>');
       yiglingEnabled = 1;
-      $( ".fudInput").after('<div class="form-wrapper chaosStoneInput"><label for="chaosStones">Chaos Stones</label><input type="text" value="0" id="chaosStones" readonly></div>');
+      $( ".forebodingInput").after('<div class="form-wrapper chaosStoneInput"><label for="chaosStones">Chaos Stones</label><input type="text" value="0" id="chaosStones" readonly></div>');
     }
 
   } // function additionItems end
